@@ -3,13 +3,13 @@ import java.util.ArrayList;
 /*
  * File: FindPairs.java
  * -----------------------------
- * This class finds all pairs of integers that, when operated upon, result in the goal.
+ * This class finds all pairs of integers in a list that, when operated upon, result in the goal.
  */
 
 public class FindPairs {
 	
 	private static int goal = 24; // Enter a number.
-	private static String operation = "multiply"; // Either either "add" or "multiply."
+	private static String operation = "multiply"; // Enter either "add" or "multiply."
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> list = arrayInit();
@@ -30,7 +30,7 @@ public class FindPairs {
 		return list;
 	}
 	
-	// Finds all pairs of integers that, when operated upon, result in the goal.
+	// Finds all pairs of integers in a list that, when operated upon, result in the goal.
 	public static void findPairs(ArrayList<Integer> list, int goal, String operation) {
 		ArrayList<Integer> visited = new ArrayList<Integer>();
 		ArrayList<String> displayed = new ArrayList<String>();
