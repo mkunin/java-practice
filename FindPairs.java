@@ -42,7 +42,6 @@ public class FindPairs {
 				computation = goal / list.get(i);
 				double computationAsDouble = 1.0 * goal / list.get(i);
 				if (computationAsDouble != computation) continue;
-				computation = goal / list.get(i);
 			}
 			String a = "" + computation + "," + list.get(i);
 			String b = "" + list.get(i) + "," + computation;
