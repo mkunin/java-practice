@@ -14,7 +14,6 @@ bool isZeroRow(vector<int>& vec);
 bool eachLeadingOneIsTheOnlyNonzeroEntryInItsColumn(vector<vector<int> >& matrix);
 
 int main() {
-    
     vector<vector<int> > matrixA;
     
     vector<int> row1;
