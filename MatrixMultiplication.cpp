@@ -9,7 +9,6 @@ void print(vector<vector<int> >& matrix);
 void print(vector<int>& vec);
 
 int main() {
-    
     vector<vector<int> > A;
     
     vector<int> row1forA;
